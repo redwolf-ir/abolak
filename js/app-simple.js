@@ -23,6 +23,9 @@ $("#fullpage").fullpage({
     }
   },
 });
+$(window).on("load", function () {
+  $(".loader-wrapper").fadeOut("slow");
+});
 
 $(".main-gallery").flickity({
   // options
