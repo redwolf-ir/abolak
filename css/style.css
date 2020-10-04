@@ -372,6 +372,10 @@ section {
   margin-left: 16px;
   display: none;
 }
+.redwolf span a {
+  color: #c7331e;
+  text-decoration: none;
+}
 .show {
   display: block !important;
   animation: fadeInFromNone 1s ease-out;

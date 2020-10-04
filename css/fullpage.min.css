@@ -73,13 +73,38 @@ html.fp-enabled {
 .fp-controlArrow.fp-prev {
   left: 48px;
   width: 0;
-  border-width: 24px 20px 24px 0;
-  border-color: transparent #0ba360 transparent transparent;
+  background-color: transparent;
+  color: transparent;
+}
+.fp-controlArrow.fp-prev::before {
+  content: "پروژه قبلی";
+  color: black;
+  width: 80px;
+  text-align: center;
+  background-color: white;
+  padding: 8px 4px;
+  left: 0;
+  font-family: iranNormal, sans-serif;
+  font-size: 18px;
+  position: absolute;
 }
 .fp-controlArrow.fp-next {
   right: 48px;
-  border-width: 24px 0 24px 20px;
-  border-color: transparent transparent transparent #0ba360;
+  width: 0;
+  background-color: transparent;
+  color: transparent;
+}
+.fp-controlArrow.fp-next::before {
+  content: "پروژه بعدی";
+  color: black;
+  width: 80px;
+  text-align: center;
+  background-color: white;
+  padding: 8px 4px;
+  right: 0;
+  font-family: iranNormal, sans-serif;
+  font-size: 18px;
+  position: absolute;
 }
 .fp-scrollable {
   overflow: hidden;
